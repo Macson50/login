@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+*{
+	margin: 0;
+}
+body{
+	background: url(../images/bg.jpeg);
+	font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+span{
+	color: red;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;	
+	position: relative;
+}
+.login-form{
+	background-color: #eeeeeec4;
+    width: 350px;
+    padding: 20px;
+    position: absolute;
+    left: 80%;
+    top: 75px;
+    box-shadow: 15px 15px 0px #2e353e99;
+}
+.img-fluid {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 15px auto 0px;
+    border-radius: 100%;
+    border: 2px solid #333;
+}
+.login-form h2{
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0px;
+}
+.form-group{
+	width: 100%;
+    padding: 10px 0px;
+}
+.form-control{
+	width: 320px;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.btn-primary {
+    background-color: #09131f99;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 0px 25px;
+    margin-bottom: 15px;
+    transition: 0.4s ease-in-out;
+    height: 30px;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	background-color: #08a7ef75;
+}
+.other-info li{
+	font-size: 14px;
+    line-height: 20px;
+}
